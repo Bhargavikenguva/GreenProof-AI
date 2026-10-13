@@ -1,0 +1,43 @@
+# ==============================================================================
+# GreenProof AI - Frontend Standalone .gitignore
+# ==============================================================================
+
+# Secrets & Environment Variables
+.env
+.env.*
+!.env.example
+*.env
+.env.local
+.env.development.local
+.env.production.local
+
+# Dependencies
+node_modules/
+
+# Production Build Outputs
+dist/
+dist-ssr/
+build/
+.vercel/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Caches
+.cache/
+.vite/
+.eslintcache
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.sw?
